@@ -19,7 +19,7 @@
 set -e
 
 DEVICE_COMMON=msm8937-common
-VENDOR=xiaomi
+VENDOR=huawei
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

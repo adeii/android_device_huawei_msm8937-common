@@ -1,4 +1,4 @@
-Common device tree for Xiaomi MSM8937 based devices
+Common device tree for Huawei MSM8937 based devices
 ==============
 
 ## Copyright
