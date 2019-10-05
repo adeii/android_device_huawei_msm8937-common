@@ -26,17 +26,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from land device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 3S
-PRODUCT_DEVICE := land
-PRODUCT_MANUFACTURER := Wingtech
-PRODUCT_NAME := lineage_land
+PRODUCT_BRAND := Huawei
+PRODUCT_MODEL := Y7 2018
+PRODUCT_DEVICE := london
+PRODUCT_MANUFACTURER := Huawei
+PRODUCT_NAME := lineage_london
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
-TARGET_VENDOR_PRODUCT_NAME := land
+TARGET_VENDOR_PRODUCT_NAME := london
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="land-user 6.0.1 MMB29M V9.6.1.0.MALMIFD release-keys"
+    PRIVATE_BUILD_DESC="london-user 8.0.0.144 MMB29M V9.6.1.0.MALMIFD release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/land/land:6.0.1/MMB29M/V9.6.1.0.MALMIFD:user/release-keys
+BUILD_FINGERPRINT := Huawei/london/london:8.0.0.144/MMB29M/V9.6.1.0.MALMIFD:user/release-keys
