@@ -1,28 +1,24 @@
-# Device Tree Repository for Xiaomi Redmi 3S (Land)
+# 1st assign is to port 8.1 Device Tree Repository for Xiaomi Redmi 3S (Land) to 8.0 Huawei Y7 (Prime) 2018 (London)
 
 ## Spec Sheet
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
 | CPU                     | Octa-core 1.4 GHz Cortex-A53      |
-| Chipset                 | Qualcomm MSM8937 Snapdragon 430   |
+| Chipset                 | Qualcomm MSM8937 Snapdragon 435   |
 | GPU                     | Adreno 505                        |
-| Memory                  | 2/3 GB                            |
-| Shipped Android Version | 6.0.1                             |
-| Storage                 | 16/32 GB                          |
+| Memory                  | 2 (Y7) / 3 GB  (Pro/Prime)        |
+| Shipped Android Version | 8.0                               |
+| Storage                 | 16 (Y7) /32 GB   (Pro/Prime)      |
 | MicroSD                 | Up to 256 GB                      |
-| Battery                 | 4100 mAh (non-removable)          |
+| Battery                 | 3000 mAh (non-removable)          |
 | Dimensions              | 139.3 x 69.6 x 8.5 mm             |
-| Display                 | 720 x 1280 pixels, 5.0" IPS LCD   |
+| Display                 | 720 x 1440 pixels, 5.0" IPS LCD   |
 | Rear Camera             | 13 MP, LED flash                  |
-| Front Camera            | 5 MP                              |
-| Release Date            | June 2016                         |
+| Front Camera            | 8 MP                              |
+| Release Date            | February 2018                     |
 
-## Device Picture
-
-![Redmi 3S](http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-3-pro-2.jpg "Redmi 3S")
-
-## Copyright
+## CopyLeft
 
 ```
 #
