@@ -22,8 +22,8 @@ set -e
 export INITIAL_COPYRIGHT_YEAR=2016
 
 # Required!
-DEVICE=land
-VENDOR=xiaomi
+DEVICE=london
+VENDOR=huawei
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
