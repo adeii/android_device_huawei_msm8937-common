@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/land
+DEVICE_PATH := device/huawei/london
 
 # Architecture
 TARGET_ARCH 	    	:= arm64
@@ -45,12 +45,12 @@ TARGET_NO_BOOTLOADER 		:= true
 
 # kernel
 BOARD_KERNEL_BASE		:= 0x80000000
-BOARD_KERNEL_CMDLINE 		:= androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000
+BOARD_KERNEL_CMDLINE 		:= androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci slub_min_objects=12 unmovable_isolate1=2:192M,3:224M,4:256M androidboot.selinux=permissive buildvariant=eng buildvariant=eng
 BOARD_KERNEL_IMAGE_NAME 	:= Image.gz-dtb
 BOARD_KERNEL_PAGESIZE 		:=  2048
 BOARD_MKBOOTIMG_ARGS 		:= --ramdisk_offset 0x01000000 --second_offset 0x00f00000 --tags_offset 0x00000100
-TARGET_KERNEL_CONFIG 		:= land_defconfig
-TARGET_KERNEL_SOURCE 		:= kernel/xiaomi/msm8937
+TARGET_KERNEL_CONFIG 		:= defconfig
+TARGET_KERNEL_SOURCE 		:= EzzPrograms/huawei_kernel_msm8937
 TARGET_EXFAT_DRIVER		:= sdfat
 
 # ANT
